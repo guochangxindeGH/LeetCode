@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithms/07 - Reverse Integer/01 - Reverse Integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/08 - String to Integer (atoi)/01 - String to Integer (atoi).js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/test.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,20 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="01 - Longest Palindromic Substring.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/05 - Longest Palindromic Substring/01 - Longest Palindromic Substring.js">
+      <file leaf-file-name="01 - Reverse Integer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/07 - Reverse Integer/01 - Reverse Integer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="150">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01 - Longest Substring Without Repeating Characters.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/03 - Longest Substring Without Repeating Characters/01 - Longest Substring Without Repeating Characters.js">
+      <file leaf-file-name="01 - String to Integer (atoi).js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/08 - String to Integer (atoi)/01 - String to Integer (atoi).js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -53,7 +65,6 @@
       <list>
         <option value="$PROJECT_DIR$/Algorithms/01-Two Sum/01-Two Sum.js" />
         <option value="$PROJECT_DIR$/Algorithms/02-Add Two Numbers/01-Add Two Numbers.js" />
-        <option value="$PROJECT_DIR$/Algorithms/test.html" />
         <option value="$PROJECT_DIR$/Algorithms/02-Add Two Numbers/02-Add Two Numbers.swift" />
         <option value="$PROJECT_DIR$/Algorithms/02-Add Two Numbers/02-Add Two Numbers.ts" />
         <option value="$PROJECT_DIR$/Algorithms/02-Add Two Numbers/02-Add Two Numbers.js" />
@@ -62,6 +73,10 @@
         <option value="$PROJECT_DIR$/Algorithms/03 - Longest Substring Without Repeating Characters/03 - Longest Substring Without Repeating Characters.js" />
         <option value="$PROJECT_DIR$/Algorithms/04 - Median of Two Sorted Arrays/01 - Median of Two Sorted Arrays.js" />
         <option value="$PROJECT_DIR$/Algorithms/05 - Longest Palindromic Substring/01 - Longest Palindromic Substring.js" />
+        <option value="$PROJECT_DIR$/Algorithms/06 - ZigZag Conversion/01 - ZigZag Conversion.js" />
+        <option value="$PROJECT_DIR$/Algorithms/07 - Reverse Integer/01 - Reverse Integer.js" />
+        <option value="$PROJECT_DIR$/Algorithms/test.html" />
+        <option value="$PROJECT_DIR$/Algorithms/08 - String to Integer (atoi)/01 - String to Integer (atoi).js" />
       </list>
     </option>
   </component>
@@ -75,8 +90,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="486" />
-    <option name="y" value="53" />
+    <option name="x" value="537" />
+    <option name="y" value="35" />
     <option name="width" value="1290" />
     <option name="height" value="985" />
   </component>
@@ -127,6 +142,24 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="05 - Longest Palindromic Substring" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="06 - ZigZag Conversion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="07 - Reverse Integer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="08 - String to Integer (atoi)" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -173,12 +206,12 @@
       <option name="presentableId" value="Default" />
       <updated>1539180849049</updated>
       <workItem from="1539180850579" duration="383000" />
-      <workItem from="1539185985671" duration="8734000" />
+      <workItem from="1539185985671" duration="10781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9117000" />
+    <option name="totallyTimeSpent" value="11164000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -190,7 +223,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="486" y="53" width="1290" height="985" extended-state="0" />
+    <frame x="537" y="35" width="1290" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32995495" />
@@ -256,13 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/02-Add Two Numbers/02-Add Two Numbers.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -294,20 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/01-Two Sum/01-Two Sum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/02-Add Two Numbers/01-Add Two Numbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/04 - Median of Two Sorted Arrays/01 - Median of Two Sorted Arrays.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -326,6 +338,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/06 - ZigZag Conversion/01 - ZigZag Conversion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/01-Two Sum/01-Two Sum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/02-Add Two Numbers/01-Add Two Numbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/07 - Reverse Integer/01 - Reverse Integer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/08 - String to Integer (atoi)/01 - String to Integer (atoi).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>

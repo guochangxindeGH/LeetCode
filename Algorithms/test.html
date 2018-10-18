@@ -6,38 +6,26 @@
 </head>
 <body>
 <script>
-    var addTwoNumbers = function(l1, l2) {
-        let add = 0;
-        let lastList, head;
-        while (l1 || l2) {
-            let a = l1 ? l1.val : 0;
-            let b = l2 ? l2.val : 0;
-            let sum = a + b + add;
-            add = ~~(sum/10);
+    var myAtoi = function(str) {
+        str = str.trim();
 
-            let yu = new ListNode(sum % 10);
-            if (!lastList) {
-                lastList = head = yu;
-            } else {
-                head.next = yu;
-                head = yu;
-            }
-            if (l1) {
-                l1 = l1.next;
-            }
-            if (l2) {
-                l2 = l2.next;
-            }
+        var pattern = /^(\-|\+)?[0-9]+/;
+        var tmp = pattern.exec(str);
+
+        if (tmp) {
+            var num = Number(tmp[0]);
+            debugger;
+            if (num < -2147483648)
+                return -2147483648;
+            if (num > 2147483647)
+                return 2147483647;
+            return num;
         }
 
-        if (add) {
-            let yu = new ListNode(add);
-            head.next = yu;
-            head = yu;
-        }
-        return lastList;
-    };
-    console.log(addTwoNumbers());
+        return 0;
+    }
+
+    console.log(myAtoi("  -287465asda83428  "));
 </script>
 
 </body>
