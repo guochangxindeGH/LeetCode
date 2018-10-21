@@ -6,26 +6,34 @@
 </head>
 <body>
 <script>
-    var myAtoi = function(str) {
-        str = str.trim();
-
-        var pattern = /^(\-|\+)?[0-9]+/;
-        var tmp = pattern.exec(str);
-
-        if (tmp) {
-            var num = Number(tmp[0]);
-            debugger;
-            if (num < -2147483648)
-                return -2147483648;
-            if (num > 2147483647)
-                return 2147483647;
-            return num;
+    var isPalindrome = function(x) {
+        let compare = function(l, a, b) {
+            while (a >= 0 && j < l.length && x[a] == x[b]) {
+                a --;
+                b ++;
+            }
+            if (a < 0) {
+                return true;
+            } else {
+                return false;
+            }
         }
+        let len = x.length;
+        debugger;
+        if (x < 0) {
+            return false;
+        } else if (len % 2 != 0) {
+            let i = len / 2;
+            let j = len / 2;
+            return compare(x, i, j);
+        } else if (len % 2 == 0) {
+            let i = len / 2 - 1;
+            let j = len / 2;
+            return compare(x, i, j);
+        }
+    };
 
-        return 0;
-    }
-
-    console.log(myAtoi("  -287465asda83428  "));
+    console.log(isPalindrome(121));
 </script>
 
 </body>
