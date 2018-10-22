@@ -6,34 +6,29 @@
 </head>
 <body>
 <script>
-    var isPalindrome = function(x) {
-        let compare = function(l, a, b) {
-            while (a >= 0 && j < l.length && x[a] == x[b]) {
-                a --;
-                b ++;
+    var romanToInt = function(s) {
+        let total = 0;
+        let m = new Map();
+        m.set('I', 1);
+        m.set('V', 5);
+        m.set('X', 10);
+        m.set('L', 50);
+        m.set('C', 100);
+        m.set('D', 500);
+        m.set('M', 1000);
+        for (let i = 0; i < s.length; i ++) {
+            let val = m.get(s[i]);
+            if (i == s.length - 1 || m.get(s[i+1]) <= m.get(s[i])) {
+                total += val;
             }
-            if (a < 0) {
-                return true;
-            } else {
-                return false;
+            else {
+                total -= val;
             }
         }
-        let len = x.length;
-        debugger;
-        if (x < 0) {
-            return false;
-        } else if (len % 2 != 0) {
-            let i = len / 2;
-            let j = len / 2;
-            return compare(x, i, j);
-        } else if (len % 2 == 0) {
-            let i = len / 2 - 1;
-            let j = len / 2;
-            return compare(x, i, j);
-        }
+        return total;
     };
 
-    console.log(isPalindrome(121));
+    console.log(romanToInt("III"));
 </script>
 
 </body>
