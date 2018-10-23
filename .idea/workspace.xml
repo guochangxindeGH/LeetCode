@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="" />
+    <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithms/15 - 3Sum/01 - 3Sum.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,31 +16,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="01 - Integer to Roman.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/12 - Integer to Roman/01 - Integer to Roman.js">
+      <file leaf-file-name="01 - Roman to Integer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/13 - Roman to Integer/01 - Roman to Integer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="72" lean-forward="true" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+            <state relative-caret-position="375">
+              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02 - Longest Substring Without Repeating Characters.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/03 - Longest Substring Without Repeating Characters/02 - Longest Substring Without Repeating Characters.js">
+      <file leaf-file-name="01 - Longest Common Prefix.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/14 - Longest Common Prefix/01 - Longest Common Prefix.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="270">
+              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-            </state>
-          </provider>
+      <file leaf-file-name="01 - 3Sum.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/15 - 3Sum/01 - 3Sum.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -78,6 +76,9 @@
         <option value="$PROJECT_DIR$/Algorithms/11 - Container With Most Water/02 - Container With Most Water.js" />
         <option value="$PROJECT_DIR$/Algorithms/12 - Integer to Roman/01 - Integer to Roman.js" />
         <option value="$PROJECT_DIR$/Algorithms/test.html" />
+        <option value="$PROJECT_DIR$/Algorithms/13 - Roman to Integer/01 - Roman to Integer.js" />
+        <option value="$PROJECT_DIR$/Algorithms/14 - Longest Common Prefix/01 - Longest Common Prefix.js" />
+        <option value="$PROJECT_DIR$/Algorithms/15 - 3Sum/01 - 3Sum.js" />
       </list>
     </option>
   </component>
@@ -183,6 +184,24 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="12 - Integer to Roman" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="13 - Roman to Integer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="14 - Longest Common Prefix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="15 - 3Sum" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -230,12 +249,12 @@
       <workItem from="1539180850579" duration="383000" />
       <workItem from="1539185985671" duration="12817000" />
       <workItem from="1540092355326" duration="10000" />
-      <workItem from="1540092580081" duration="4218000" />
+      <workItem from="1540092580081" duration="4448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17428000" />
+    <option name="totallyTimeSpent" value="17658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,16 +267,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="355" y="23" width="1290" height="985" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
-      <window_info active="true" anchor="bottom" id="TODO" order="8" visible="true" weight="0.32995495" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
+      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500394" side_tool="true" weight="0.34797296" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.36486486" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49960598" weight="0.36486486" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34797296" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49960598" visible="true" weight="0.34797296" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32995495" />
@@ -445,6 +465,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/03 - Longest Substring Without Repeating Characters/02 - Longest Substring Without Repeating Characters.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -452,12 +479,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
+    <entry file="file://$PROJECT_DIR$/Algorithms/13 - Roman to Integer/01 - Roman to Integer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="375">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/14 - Longest Common Prefix/01 - Longest Common Prefix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/15 - 3Sum/01 - 3Sum.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
