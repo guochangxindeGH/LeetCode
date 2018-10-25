@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/18 - 4Sum/01 - 4Sum.js" afterDir="false" />
-    </list>
+    <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,17 +14,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="01 - Letter Combinations of a Phone Number.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/17 - Letter Combinations of a Phone Number/01 - Letter Combinations of a Phone Number.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01 - 4Sum.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/18 - 4Sum/01 - 4Sum.js">
+      <file leaf-file-name="01 - Valid Parentheses.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/20 - Valid Parentheses/01 - Valid Parentheses.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -73,6 +62,9 @@
         <option value="$PROJECT_DIR$/Algorithms/16 - 3Sum Closest/01 - 3Sum Closest.js" />
         <option value="$PROJECT_DIR$/Algorithms/17 - Letter Combinations of a Phone Number/01 - Letter Combinations of a Phone Number.js" />
         <option value="$PROJECT_DIR$/Algorithms/18 - 4Sum/01 - 4Sum.js" />
+        <option value="$PROJECT_DIR$/Algorithms/19 - Remove Nth Node From End of List/19 - Remove Nth Node From End of List.js" />
+        <option value="$PROJECT_DIR$/Algorithms/20 - Valid Parentheses/01 - Valid Parentheses.js" />
+        <option value="$PROJECT_DIR$/Algorithms/19 - Remove Nth Node From End of List/02 - Remove Nth Node From End of List.js" />
       </list>
     </option>
   </component>
@@ -117,6 +109,24 @@
               <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="17 - Letter Combinations of a Phone Number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="18 - 4Sum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="19 - Remove Nth Node From End of List" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="20 - Valid Parentheses" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,12 +175,12 @@
       <workItem from="1539180850579" duration="383000" />
       <workItem from="1539185985671" duration="12817000" />
       <workItem from="1540092355326" duration="10000" />
-      <workItem from="1540092580081" duration="6643000" />
+      <workItem from="1540092580081" duration="6930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19853000" />
+    <option name="totallyTimeSpent" value="20140000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,6 +433,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/18 - 4Sum/01 - 4Sum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/17 - Letter Combinations of a Phone Number/01 - Letter Combinations of a Phone Number.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -430,7 +447,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/18 - 4Sum/01 - 4Sum.js">
+    <entry file="file://$PROJECT_DIR$/Algorithms/19 - Remove Nth Node From End of List/19 - Remove Nth Node From End of List.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/19 - Remove Nth Node From End of List/02 - Remove Nth Node From End of List.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/20 - Valid Parentheses/01 - Valid Parentheses.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
