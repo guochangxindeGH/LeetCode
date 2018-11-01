@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/29 - Divide Two Integers/01 - Divide Two Integers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/test.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,29 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="340">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02 - Remove Duplicates from Sorted Array.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/26 - Remove Duplicates from Sorted Array/02 - Remove Duplicates from Sorted Array.js">
+      <file leaf-file-name="01 - Divide Two Integers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/29 - Divide Two Integers/01 - Divide Two Integers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01 - Remove Element.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/27 - Remove Element/01 - Remove Element.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="27" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -93,10 +85,12 @@
         <option value="$PROJECT_DIR$/Algorithms/23 - Merge k Sorted Lists/01 - Merge k Sorted Lists.js" />
         <option value="$PROJECT_DIR$/Algorithms/24 - Swap Nodes in Pairs/01 - Swap Nodes in Pairs.js" />
         <option value="$PROJECT_DIR$/Algorithms/25 - Reverse Nodes in k-Group/01 - Reverse Nodes in k-Group.js" />
-        <option value="$PROJECT_DIR$/Algorithms/test.html" />
         <option value="$PROJECT_DIR$/Algorithms/26 - Remove Duplicates from Sorted Array/01 - Remove Duplicates from Sorted Array.js" />
         <option value="$PROJECT_DIR$/Algorithms/26 - Remove Duplicates from Sorted Array/02 - Remove Duplicates from Sorted Array.js" />
         <option value="$PROJECT_DIR$/Algorithms/27 - Remove Element/01 - Remove Element.js" />
+        <option value="$PROJECT_DIR$/Algorithms/28 - Implement strStr()/01 - Implement strStr().js" />
+        <option value="$PROJECT_DIR$/Algorithms/29 - Divide Two Integers/01 - Divide Two Integers.js" />
+        <option value="$PROJECT_DIR$/Algorithms/test.html" />
       </list>
     </option>
   </component>
@@ -160,6 +154,12 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="27 - Remove Element" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="28 - Implement strStr()" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -207,12 +207,12 @@
       <workItem from="1539180850579" duration="383000" />
       <workItem from="1539185985671" duration="12817000" />
       <workItem from="1540092355326" duration="10000" />
-      <workItem from="1540092580081" duration="11808000" />
+      <workItem from="1540092580081" duration="12739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25018000" />
+    <option name="totallyTimeSpent" value="25949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -225,6 +225,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="278" y="23" width="1290" height="985" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" weight="0.32995495" />
@@ -542,17 +543,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/26 - Remove Duplicates from Sorted Array/01 - Remove Duplicates from Sorted Array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/27 - Remove Element/01 - Remove Element.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/28 - Implement strStr()/01 - Implement strStr().js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/29 - Divide Two Integers/01 - Divide Two Integers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="27" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -563,10 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/27 - Remove Element/01 - Remove Element.js">
+    <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        <state relative-caret-position="340">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
         </state>
       </provider>
     </entry>

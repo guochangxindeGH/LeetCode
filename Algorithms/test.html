@@ -6,21 +6,32 @@
 </head>
 <body>
 <script>
-    var removeDuplicates = function(nums) {
-        var ans = 0;
-        for (var i = nums.length; i--; ) {
-            if (i === nums.length - 1)
-                ans++;
-            else if (nums[i] === nums[i + 1])
-                nums.splice(i, 1);
-            else
-                ans++;
+    var divide = function(dividend, divisor) {
+        debugger;
+        let ans = 0;
+        if (dividend == -2147483648 && divisor == -1 ) {
+            return 2147483647;
         }
-
-        return ans;
+        let flag = 0;
+        if (dividend > 0 ^ divisor > 0) {
+            flag = 1;
+        }
+        let a = Math.abs(dividend);
+        let b = Math.abs(divisor);
+        while (a >= b) {
+            let temp = b;
+            let divide = 1;
+            if (a >= (temp << 1)) {
+                temp <<= 1;
+                divide <<= 1;
+            }
+            a -= temp;
+            ans += divide;
+        }
+        return (flag)?(0-ans):ans;
     };
 
-    console.log(removeDuplicates([1,1,2]));
+    console.log(divide(1100540749,-1090366779));
 </script>
 
 </body>
