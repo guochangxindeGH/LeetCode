@@ -1,7 +1,7 @@
 
 // Source : https://leetcode.com/problems/search-in-rotated-sorted-array/
 // Author : Han Zichi
-// Date   : 2015-08-10
+// Date   : 2018-11-05
 
 /**
  * @param {number[]} nums
