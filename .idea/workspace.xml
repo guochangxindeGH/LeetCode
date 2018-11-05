@@ -23,13 +23,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01 - Divide Two Integers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01 - Divide Two Integers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/29 - Divide Two Integers/01 - Divide Two Integers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01 - Search in Rotated Sorted Array.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/01 - Search in Rotated Sorted Array.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -88,6 +93,7 @@
         <option value="$PROJECT_DIR$/Algorithms/28 - Implement strStr()/01 - Implement strStr().js" />
         <option value="$PROJECT_DIR$/Algorithms/29 - Divide Two Integers/01 - Divide Two Integers.js" />
         <option value="$PROJECT_DIR$/Algorithms/test.html" />
+        <option value="$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/01 - Search in Rotated Sorted Array.js" />
       </list>
     </option>
   </component>
@@ -101,7 +107,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="278" />
+    <option name="x" value="363" />
     <option name="y" value="23" />
     <option name="width" value="1290" />
     <option name="height" value="985" />
@@ -157,6 +163,12 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="28 - Implement strStr()" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="33 - Search in Rotated Sorted Array" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -204,12 +216,12 @@
       <workItem from="1539180850579" duration="383000" />
       <workItem from="1539185985671" duration="12817000" />
       <workItem from="1540092355326" duration="10000" />
-      <workItem from="1540092580081" duration="13469000" />
+      <workItem from="1540092580081" duration="14469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26679000" />
+    <option name="totallyTimeSpent" value="27679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,7 +233,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="278" y="23" width="1290" height="985" extended-state="0" />
+    <frame x="363" y="23" width="1290" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
@@ -581,6 +593,9 @@
           <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/01 - Search in Rotated Sorted Array.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
