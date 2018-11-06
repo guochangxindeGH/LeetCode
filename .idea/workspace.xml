@@ -216,10 +216,18 @@
       <workItem from="1540092355326" duration="10000" />
       <workItem from="1540092580081" duration="15235000" />
     </task>
+    <task id="LOCAL-00001" summary="asd">
+      <created>1541515185605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541515185605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28445000" />
+    <option name="totallyTimeSpent" value="29143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,11 +244,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49881798" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501182" side_tool="true" weight="0.5777027" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49881798" weight="0.36486486" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50197005" side_tool="true" weight="0.36486486" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49802995" weight="0.36486486" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.6024775" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49802995" visible="true" weight="0.47635135" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32995495" />
@@ -258,7 +267,6 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500394" side_tool="true" weight="0.6880631" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49960598" visible="true" weight="0.6880631" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
@@ -294,6 +302,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Algorithms/29 - Divide Two Integers/01 - Divide Two Integers.js">
