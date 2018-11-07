@@ -17,33 +17,24 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="135">
               <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01 - Search for a Range.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/34 - Search for a Range/01 - Search for a Range.js">
+      <file leaf-file-name="01 - Valid Sudoku.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/36 - Valid Sudoku/01 - Valid Sudoku.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01 - Search in Rotated Sorted Array.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/01 - Search in Rotated Sorted Array.js">
+      <file leaf-file-name="01 - Count and Say.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/38 - Count and Say/01 - Count and Say.js">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="02 - Search in Rotated Sorted Array.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/02 - Search in Rotated Sorted Array.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -105,6 +96,9 @@
         <option value="$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/01 - Search in Rotated Sorted Array.js" />
         <option value="$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/02 - Search in Rotated Sorted Array.js" />
         <option value="$PROJECT_DIR$/Algorithms/34 - Search for a Range/01 - Search for a Range.js" />
+        <option value="$PROJECT_DIR$/Algorithms/35 - Search Insert Position/01 - Search Insert Position.js" />
+        <option value="$PROJECT_DIR$/Algorithms/36 - Valid Sudoku/01 - Valid Sudoku.js" />
+        <option value="$PROJECT_DIR$/Algorithms/38 - Count and Say/01 - Count and Say.js" />
       </list>
     </option>
   </component>
@@ -118,7 +112,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="287" />
+    <option name="x" value="363" />
     <option name="y" value="23" />
     <option name="width" value="1290" />
     <option name="height" value="985" />
@@ -185,6 +179,24 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="34 - Search for a Range" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="35 - Search Insert Position" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="36 - Valid Sudoku" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="38 - Count and Say" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -234,7 +246,7 @@
       <workItem from="1539185985671" duration="12817000" />
       <workItem from="1540092355326" duration="10000" />
       <workItem from="1540092580081" duration="15235000" />
-      <workItem from="1541515722592" duration="302000" />
+      <workItem from="1541515722592" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1541515185605</created>
@@ -250,11 +262,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541515847183</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add 35 solution">
+      <created>1541516095046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541516095046</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add 36 solution">
+      <created>1541516168083</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541516168083</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29445000" />
+    <option name="totallyTimeSpent" value="30288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,18 +292,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="287" y="23" width="1290" height="985" extended-state="0" />
+    <frame x="363" y="23" width="1290" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500394" side_tool="true" weight="0.6880631" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501182" side_tool="true" weight="0.35585585" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49960598" weight="0.36486486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49960598" visible="true" weight="0.35585585" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.3231982" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32995495" />
@@ -324,30 +350,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asd" />
     <MESSAGE value="add 33 solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 33 solution" />
+    <MESSAGE value="add 35 solution" />
+    <MESSAGE value="add 36 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 36 solution" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithms/29 - Divide Two Integers/01 - Divide Two Integers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/01 - Search in Rotated Sorted Array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/34 - Search for a Range/01 - Search for a Range.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -627,17 +634,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/29 - Divide Two Integers/01 - Divide Two Integers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/34 - Search for a Range/01 - Search for a Range.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/35 - Search Insert Position/01 - Search Insert Position.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -651,12 +672,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/34 - Search for a Range/01 - Search for a Range.js">
+    <entry file="file://$PROJECT_DIR$/Algorithms/36 - Valid Sudoku/01 - Valid Sudoku.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="31" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/38 - Count and Say/01 - Count and Say.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
