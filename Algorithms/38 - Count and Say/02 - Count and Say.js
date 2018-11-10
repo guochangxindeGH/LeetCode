@@ -11,25 +11,25 @@ var countAndSay = function(n) {
     let count = 1
     let n1
     while (n > 2) {
-        let str = ''
+        let str = []
         for (let i = 1; i < num.length; i ++) {
-            // debugger;
             n1 = num[i]
             if (n1 == num[i - 1]) {
                 count ++
             } else {
-                str += count += num[i - 1];
+                // str += count += num[i - 1];
+                str.push(count)
+                str.push(num[i - 1])
                 count = 1;
-                // str.append(count).append(num[i - 1])
             }
             if (i == num.length - 1) {
-                str += count += num[i];
-                // str.append(count).append(num[i])
+                // str += count += num[i];
+                str.push(count)
+                str.push(num[i])
             }
         }
         count = 1
-        num = str
-        debugger;
+        num = str.join('');
         n --
     }
     return num;
