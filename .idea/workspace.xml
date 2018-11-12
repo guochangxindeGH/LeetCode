@@ -41,13 +41,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02 - Count and Say.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="02 - Count and Say.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/38 - Count and Say/02 - Count and Say.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="210">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01 - Multiply Strings.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/43 - Multiply Strings/01 - Multiply Strings.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -113,6 +118,7 @@
         <option value="$PROJECT_DIR$/Algorithms/test.html" />
         <option value="$PROJECT_DIR$/Algorithms/38 - Count and Say/01 - Count and Say.js" />
         <option value="$PROJECT_DIR$/Algorithms/38 - Count and Say/02 - Count and Say.js" />
+        <option value="$PROJECT_DIR$/Algorithms/43 - Multiply Strings/01 - Multiply Strings.js" />
       </list>
     </option>
   </component>
@@ -211,6 +217,12 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="38 - Count and Say" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="43 - Multiply Strings" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -260,7 +272,7 @@
       <workItem from="1539185985671" duration="12817000" />
       <workItem from="1540092355326" duration="10000" />
       <workItem from="1540092580081" duration="15235000" />
-      <workItem from="1541515722592" duration="5472000" />
+      <workItem from="1541515722592" duration="6195000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1541515185605</created>
@@ -301,7 +313,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34615000" />
+    <option name="totallyTimeSpent" value="35338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,16 +326,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="262" y="25" width="1290" height="985" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
-      <window_info active="true" anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" visible="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50197005" side_tool="true" weight="0.36486486" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49802995" weight="0.36486486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" weight="0.3231982" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.3231982" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32995495" />
@@ -376,13 +389,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="none" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithms/07 - Reverse Integer/01 - Reverse Integer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/07 - Reverse Integer/01 - Reverse Integer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -706,10 +712,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/38 - Count and Say/02 - Count and Say.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="210">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/43 - Multiply Strings/01 - Multiply Strings.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
