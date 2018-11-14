@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="" />
+    <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Algorithms/46 - Permutations/01 - Permutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/46 - Permutations/01 - Permutations.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,14 +25,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01 - Multiply Strings.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/43 - Multiply Strings/01 - Multiply Strings.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="01 - Permutations.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/46 - Permutations/01 - Permutations.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -257,7 +258,7 @@
       <workItem from="1539185985671" duration="12817000" />
       <workItem from="1540092355326" duration="10000" />
       <workItem from="1540092580081" duration="15235000" />
-      <workItem from="1541515722592" duration="6515000" />
+      <workItem from="1541515722592" duration="6781000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1541515185605</created>
@@ -298,7 +299,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35658000" />
+    <option name="totallyTimeSpent" value="35924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,7 +314,7 @@
     <frame x="262" y="25" width="1290" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50197005" side_tool="true" weight="0.36486486" />
@@ -321,7 +322,7 @@
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49802995" weight="0.36486486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.3231982" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.3231982" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32995495" />
@@ -688,6 +689,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/43 - Multiply Strings/01 - Multiply Strings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -695,11 +703,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/43 - Multiply Strings/01 - Multiply Strings.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/46 - Permutations/01 - Permutations.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
