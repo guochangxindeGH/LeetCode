@@ -9,14 +9,14 @@ var spiralOrder = function(matrix) {
     }
     //只有一行的情况
     if (matrix.length == 1) {
-        for (let a in matrix[0]) {
+        for (let a of matrix[0]) {
             result.push(a)
         }
         return result
     }
     //只有一列的情况
     if (matrix[0] == 1) {
-        for (let a of matrix) {
+        for (let a in matrix) {
             result.push(matrix[a][0])
         }
         return result
