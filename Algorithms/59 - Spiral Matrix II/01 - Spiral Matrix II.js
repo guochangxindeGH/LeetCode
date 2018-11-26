@@ -5,7 +5,7 @@
 var generateMatrix = function(n) {
     let result = new Array()
     for(let k = 0; k < n; k ++){        //一维长度为i,i为变量，可以根据实际情况改变
-        result[k]=new Array();    //声明二维，每一个一维数组里面的一个元素都是一个数组
+        result[k] = new Array();    //声明二维，每一个一维数组里面的一个元素都是一个数组
     }
 
     let layer
