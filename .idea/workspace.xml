@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Algorithms/59 - Spiral Matrix II/01 - Spiral Matrix II.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/59 - Spiral Matrix II/01 - Spiral Matrix II.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01 - Spiral Matrix II.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01 - Spiral Matrix II.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/59 - Spiral Matrix II/01 - Spiral Matrix II.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="101">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01 - Unique Paths.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/62 - Unique Paths/01 - Unique Paths.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -69,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Algorithms/03 - Longest Substring Without Repeating Characters/03 - Longest Substring Without Repeating Characters.js" />
         <option value="$PROJECT_DIR$/Algorithms/04 - Median of Two Sorted Arrays/01 - Median of Two Sorted Arrays.js" />
         <option value="$PROJECT_DIR$/Algorithms/05 - Longest Palindromic Substring/01 - Longest Palindromic Substring.js" />
         <option value="$PROJECT_DIR$/Algorithms/06 - ZigZag Conversion/01 - ZigZag Conversion.js" />
@@ -120,6 +128,7 @@
         <option value="$PROJECT_DIR$/Algorithms/61 - Rotate List/01 - Rotate List.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/61 - Rotate List/02 - Rotate List.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/59 - Spiral Matrix II/01 - Spiral Matrix II.js" />
+        <option value="$PROJECT_DIR$/Algorithms/62 - Unique Paths/01 - Unique Paths.js" />
       </list>
     </option>
   </component>
@@ -133,8 +142,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="426" />
-    <option name="y" value="23" />
+    <option name="x" value="295" />
+    <option name="y" value="28" />
     <option name="width" value="1290" />
     <option name="height" value="985" />
   </component>
@@ -254,6 +263,12 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="61 - Rotate List" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="62 - Unique Paths" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -303,7 +318,7 @@
       <workItem from="1539185985671" duration="12817000" />
       <workItem from="1540092355326" duration="10000" />
       <workItem from="1540092580081" duration="15235000" />
-      <workItem from="1541515722592" duration="10380000" />
+      <workItem from="1541515722592" duration="10753000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1541515185605</created>
@@ -344,7 +359,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39523000" />
+    <option name="totallyTimeSpent" value="39896000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,10 +371,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="426" y="23" width="1290" height="985" extended-state="0" />
-    <editor active="true" />
+    <frame x="295" y="28" width="1290" height="985" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50197005" side_tool="true" weight="0.36486486" />
@@ -367,7 +381,7 @@
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49802995" weight="0.36486486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.3231982" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.3231982" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32995495" />
@@ -420,13 +434,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="none" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithms/07 - Reverse Integer/01 - Reverse Integer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/09 - Palindrome Number/01 - Palindrome Number.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -765,7 +772,14 @@
     <entry file="file://$PROJECT_DIR$/Algorithms/59 - Spiral Matrix II/01 - Spiral Matrix II.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/62 - Unique Paths/01 - Unique Paths.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
         </state>
       </provider>
     </entry>
