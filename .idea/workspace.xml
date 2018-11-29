@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/88 - Merge Sorted Array/01 - Merge Sorted Array.js" afterDir="false" />
-    </list>
+    <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -45,7 +43,11 @@
       </file>
       <file leaf-file-name="01 - Merge Sorted Array.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/88 - Merge Sorted Array/01 - Merge Sorted Array.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="02 - Subsets.js" pinned="false" current-in-tab="false">
@@ -332,7 +334,7 @@
       <workItem from="1539185985671" duration="12817000" />
       <workItem from="1540092355326" duration="10000" />
       <workItem from="1540092580081" duration="15235000" />
-      <workItem from="1541515722592" duration="12443000" />
+      <workItem from="1541515722592" duration="12889000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1541515185605</created>
@@ -373,7 +375,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41586000" />
+    <option name="totallyTimeSpent" value="42032000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,7 +390,7 @@
     <frame x="295" y="28" width="1290" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50197005" side_tool="true" weight="0.36486486" />
@@ -396,7 +398,7 @@
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49802995" weight="0.36486486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.3231982" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.3231982" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32995495" />
@@ -788,7 +790,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/88 - Merge Sorted Array/01 - Merge Sorted Array.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
