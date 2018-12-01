@@ -41,11 +41,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01 - Merge Sorted Array.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01 - Merge Sorted Array.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/88 - Merge Sorted Array/01 - Merge Sorted Array.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01 - Gray Code.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/89 - Gray Code/01 - Gray Code.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02 - Gray Code.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/89 - Gray Code/02 - Gray Code.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -76,8 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Algorithms/09 - Palindrome Number/01 - Palindrome Number.js" />
-        <option value="$PROJECT_DIR$/Algorithms/09 - Palindrome Number/02 - Palindrome Number.js" />
         <option value="$PROJECT_DIR$/Algorithms/10 - Regular Expression Matching/01 - Regular Expression Matching.js" />
         <option value="$PROJECT_DIR$/Algorithms/11 - Container With Most Water/01 - Container With Most Water.js" />
         <option value="$PROJECT_DIR$/Algorithms/11 - Container With Most Water/02 - Container With Most Water.js" />
@@ -127,6 +143,8 @@
         <option value="$PROJECT_DIR$/Algorithms/78 - Subsets/01 - Subsets.js" />
         <option value="$PROJECT_DIR$/Algorithms/78 - Subsets/02 - Subsets.js" />
         <option value="$PROJECT_DIR$/Algorithms/88 - Merge Sorted Array/01 - Merge Sorted Array.js" />
+        <option value="$PROJECT_DIR$/Algorithms/89 - Gray Code/01 - Gray Code.js" />
+        <option value="$PROJECT_DIR$/Algorithms/89 - Gray Code/02 - Gray Code.js" />
       </list>
     </option>
   </component>
@@ -285,6 +303,12 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="88 - Merge Sorted Array" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="89 - Gray Code" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -334,7 +358,7 @@
       <workItem from="1539185985671" duration="12817000" />
       <workItem from="1540092355326" duration="10000" />
       <workItem from="1540092580081" duration="15235000" />
-      <workItem from="1541515722592" duration="12889000" />
+      <workItem from="1541515722592" duration="13177000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1541515185605</created>
@@ -375,7 +399,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42032000" />
+    <option name="totallyTimeSpent" value="42320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,20 +475,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="none" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithms/03 - Longest Substring Without Repeating Characters/01 - Longest Substring Without Repeating Characters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/04 - Median of Two Sorted Arrays/01 - Median of Two Sorted Arrays.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/05 - Longest Palindromic Substring/01 - Longest Palindromic Substring.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -793,6 +803,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/89 - Gray Code/01 - Gray Code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/89 - Gray Code/02 - Gray Code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
