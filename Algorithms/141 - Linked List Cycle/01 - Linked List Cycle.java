@@ -1,5 +1,5 @@
-    × 关闭
-        执行用时为 7 ms 的范例
+
+// 哈希表 算法
         /**
         * Definition for singly-linked list.
         * class ListNode {
