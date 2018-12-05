@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Algorithms/141 - Linked List Cycle/01 - Linked List Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/141 - Linked List Cycle/01 - Linked List Cycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/141 - Linked List Cycle/02 - Linked List Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/141 - Linked List Cycle/02 - Linked List Cycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/146 - LRU Cache/01 - LRU Cache.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,13 +35,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02 - Linked List Cycle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="02 - Linked List Cycle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/141 - Linked List Cycle/02 - Linked List Cycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="120">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01 - Linked List Cycle II.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/142 - Linked List Cycle II/01 - Linked List Cycle II.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01 - LRU Cache.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/146 - LRU Cache/01 - LRU Cache.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -61,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Algorithms/19 - Remove Nth Node From End of List/19 - Remove Nth Node From End of List.js" />
         <option value="$PROJECT_DIR$/Algorithms/19 - Remove Nth Node From End of List/02 - Remove Nth Node From End of List.js" />
         <option value="$PROJECT_DIR$/Algorithms/20 - Valid Parentheses/01 - Valid Parentheses.js" />
         <option value="$PROJECT_DIR$/Algorithms/21 - Merge Two Sorted Lists/01 - Merge Two Sorted Lists.js" />
@@ -112,6 +125,7 @@
         <option value="$PROJECT_DIR$/Algorithms/141 - Linked List Cycle/01 - Linked List Cycle.js" />
         <option value="$PROJECT_DIR$/Algorithms/141 - Linked List Cycle/01 - Linked List Cycle.java" />
         <option value="$PROJECT_DIR$/Algorithms/141 - Linked List Cycle/02 - Linked List Cycle.java" />
+        <option value="$PROJECT_DIR$/Algorithms/142 - Linked List Cycle II/01 - Linked List Cycle II.cpp" />
       </list>
     </option>
   </component>
@@ -125,8 +139,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="357" />
-    <option name="y" value="153" />
+    <option name="x" value="361" />
+    <option name="y" value="23" />
     <option name="width" value="1290" />
     <option name="height" value="985" />
   </component>
@@ -173,6 +187,12 @@
               <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="141 - Linked List Cycle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="142 - Linked List Cycle II" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,7 +243,7 @@
       <workItem from="1539185985671" duration="12817000" />
       <workItem from="1540092355326" duration="10000" />
       <workItem from="1540092580081" duration="15235000" />
-      <workItem from="1541515722592" duration="16058000" />
+      <workItem from="1541515722592" duration="16530000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1541515185605</created>
@@ -264,7 +284,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45201000" />
+    <option name="totallyTimeSpent" value="45673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,10 +296,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="357" y="153" width="1290" height="985" extended-state="0" />
+    <frame x="361" y="23" width="1290" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50197005" side_tool="true" weight="0.36486486" />
@@ -287,7 +307,7 @@
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49802995" weight="0.36486486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.28603604" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.28603604" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32995495" />
@@ -360,20 +380,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="none" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithms/19 - Remove Nth Node From End of List/19 - Remove Nth Node From End of List.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/19 - Remove Nth Node From End of List/02 - Remove Nth Node From End of List.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/20 - Valid Parentheses/01 - Valid Parentheses.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -699,10 +705,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/141 - Linked List Cycle/02 - Linked List Cycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/142 - Linked List Cycle II/01 - Linked List Cycle II.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/146 - LRU Cache/01 - LRU Cache.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
