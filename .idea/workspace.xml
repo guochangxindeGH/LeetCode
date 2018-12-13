@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithms/217 - Contains Duplicate/01 - Contains Duplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,11 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01 - Kth Largest Element in an Array.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/215 - Kth Largest Element in an Array/01 - Kth Largest Element in an Array.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01 - Contains Duplicate.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/217 - Contains Duplicate/01 - Contains Duplicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -42,8 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Algorithms/28 - Implement strStr()/01 - Implement strStr().js" />
-        <option value="$PROJECT_DIR$/Algorithms/29 - Divide Two Integers/01 - Divide Two Integers.js" />
         <option value="$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/01 - Search in Rotated Sorted Array.js" />
         <option value="$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/02 - Search in Rotated Sorted Array.js" />
         <option value="$PROJECT_DIR$/Algorithms/34 - Search for a Range/01 - Search for a Range.js" />
@@ -93,6 +110,8 @@
         <option value="$PROJECT_DIR$/Algorithms/169 - Majority Element/03 - Majority Element.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/206 - Reverse Linked List/01 - Reverse Linked List.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/206 - Reverse Linked List/02 - Reverse Linked List.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/215 - Kth Largest Element in an Array/01 - Kth Largest Element in an Array.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/217 - Contains Duplicate/01 - Contains Duplicate.java" />
       </list>
     </option>
   </component>
@@ -185,6 +204,18 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="206 - Reverse Linked List" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="215 - Kth Largest Element in an Array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="217 - Contains Duplicate" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -234,7 +265,7 @@
       <workItem from="1539185985671" duration="12817000" />
       <workItem from="1540092355326" duration="10000" />
       <workItem from="1540092580081" duration="15235000" />
-      <workItem from="1541515722592" duration="20531000" />
+      <workItem from="1541515722592" duration="20800000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1541515185605</created>
@@ -275,7 +306,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49674000" />
+    <option name="totallyTimeSpent" value="49943000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,7 +318,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="377" y="23" width="1290" height="985" extended-state="0" />
+    <frame x="299" y="25" width="1290" height="985" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" weight="0.32995495" />
@@ -370,20 +401,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="none" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithms/26 - Remove Duplicates from Sorted Array/02 - Remove Duplicates from Sorted Array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/29 - Divide Two Integers/01 - Divide Two Integers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/34 - Search for a Range/01 - Search for a Range.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -707,6 +724,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/215 - Kth Largest Element in an Array/01 - Kth Largest Element in an Array.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/217 - Contains Duplicate/01 - Contains Duplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
