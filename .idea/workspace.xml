@@ -1,47 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/217 - Contains Duplicate/01 - Contains Duplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a581d291-0a24-4a50-87ba-e475837656e4" name="Default" comment="add 231 solution">
+      <change afterPath="$PROJECT_DIR$/Algorithms/235 - Lowest Common Ancestor of a Binary Search Tree/01 - Lowest Common Ancestor of a Binary Search Tree.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1037309959">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C++" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01 - Kth Largest Element in an Array.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/215 - Kth Largest Element in an Array/01 - Kth Largest Element in an Array.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01 - Contains Duplicate.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/217 - Contains Duplicate/01 - Contains Duplicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/235 - Lowest Common Ancestor of a Binary Search Tree/01 - Lowest Common Ancestor of a Binary Search Tree.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -61,8 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/01 - Search in Rotated Sorted Array.js" />
-        <option value="$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/02 - Search in Rotated Sorted Array.js" />
         <option value="$PROJECT_DIR$/Algorithms/34 - Search for a Range/01 - Search for a Range.js" />
         <option value="$PROJECT_DIR$/Algorithms/35 - Search Insert Position/01 - Search Insert Position.js" />
         <option value="$PROJECT_DIR$/Algorithms/36 - Valid Sudoku/01 - Valid Sudoku.js" />
@@ -112,6 +125,8 @@
         <option value="$PROJECT_DIR$/Algorithms/206 - Reverse Linked List/02 - Reverse Linked List.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/215 - Kth Largest Element in an Array/01 - Kth Largest Element in an Array.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/217 - Contains Duplicate/01 - Contains Duplicate.java" />
+        <option value="$PROJECT_DIR$/Algorithms/237 - Delete Node in a Linked List/01 - Delete Node in a Linked List.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/231 - Power of Two/01 - Power of Two.cpp" />
       </list>
     </option>
   </component>
@@ -121,11 +136,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="150" />
     <option name="y" value="23" />
     <option name="width" value="1290" />
     <option name="height" value="877" />
@@ -142,79 +153,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="122 - Best Time to Buy and Sell Stock II" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="124 - Binary Tree Maximum Path Sum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="136 - Single Number" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="141 - Linked List Cycle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="142 - Linked List Cycle II" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="146 - LRU Cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="148 - Sort List" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="169 - Majority Element" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="206 - Reverse Linked List" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="215 - Kth Largest Element in an Array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode-JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode-JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="217 - Contains Duplicate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,6 +211,7 @@
       <workItem from="1540092355326" duration="10000" />
       <workItem from="1540092580081" duration="15235000" />
       <workItem from="1541515722592" duration="20800000" />
+      <workItem from="1544777387107" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1541515185605</created>
@@ -302,11 +248,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541689789892</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add 231 solution">
+      <created>1544777586918</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544777586918</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49943000" />
+    <option name="totallyTimeSpent" value="50197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,46 +271,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="299" y="25" width="1290" height="985" extended-state="0" />
+    <frame x="0" y="23" width="1290" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32995495" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.3375796" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50197005" side_tool="true" weight="0.36486486" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49802995" weight="0.5281532" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.27364865" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32995495" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49802995" weight="0.22929937" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24980299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" weight="0.32995495" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32995495" />
-      <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49881798" visible="true" weight="0.28603604" />
+      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49960598" weight="0.32995495" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50197005" side_tool="true" weight="0.36486486" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49802995" weight="0.36486486" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,26 +352,10 @@
     <MESSAGE value="add 35 solution" />
     <MESSAGE value="add 36 solution" />
     <MESSAGE value="none" />
-    <option name="LAST_COMMIT_MESSAGE" value="none" />
+    <MESSAGE value="add 231 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 231 solution" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithms/34 - Search for a Range/01 - Search for a Range.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/35 - Search Insert Position/01 - Search Insert Position.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/01 - Search in Rotated Sorted Array.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/33 - Search in Rotated Sorted Array/02 - Search in Rotated Sorted Array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -488,9 +426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/61 - Rotate List/01 - Rotate List.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/61 - Rotate List/01 - Rotate List.js" />
     <entry file="file://$PROJECT_DIR$/Algorithms/54 - Spiral Matrix/01 - Spiral Matrix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -533,9 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/70 - Climbing Stairs/70 - Climbing Stairs.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/70 - Climbing Stairs/70 - Climbing Stairs.js" />
     <entry file="file://$PROJECT_DIR$/Algorithms/70 - Climbing Stairs/01 - Climbing Stairs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -589,9 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,9 +561,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/141 - Linked List Cycle/01 - Linked List Cycle.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/141 - Linked List Cycle/01 - Linked List Cycle.js" />
     <entry file="file://$PROJECT_DIR$/Algorithms/146 - LRU Cache/02 - LRU Cache.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
@@ -654,9 +583,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/148 - Sort List/01 - Sort List.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/148 - Sort List/01 - Sort List.cpp" />
     <entry file="file://$PROJECT_DIR$/Algorithms/142 - Linked List Cycle II/01 - Linked List Cycle II.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -720,10 +647,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
+    <entry file="file://$PROJECT_DIR$/Algorithms/235 - Lowest Common Ancestor of a Binary Search Tree/01 - Lowest Common Ancestor of a Binary Search Tree.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/217 - Contains Duplicate/01 - Contains Duplicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/237 - Delete Node in a Linked List/01 - Delete Node in a Linked List.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -734,10 +671,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/217 - Contains Duplicate/01 - Contains Duplicate.java">
+    <entry file="file://$PROJECT_DIR$/Algorithms/231 - Power of Two/01 - Power of Two.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
