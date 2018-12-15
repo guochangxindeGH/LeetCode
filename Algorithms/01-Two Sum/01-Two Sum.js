@@ -24,3 +24,5 @@ var twoSum = function(nums, target) {
         arr[nums[i]] = i;
     }
 };
+
+console.log(twoSum([2, 7, 11, 15], 9));
