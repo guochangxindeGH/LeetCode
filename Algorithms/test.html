@@ -10,11 +10,25 @@
      * @param {number} n
      * @return {string}
      */
-    var countAndSay = function(n) {
+    var groupAnagrams = function(strs) {
+        var ans = [];
+        var hash = {};
 
+        strs.forEach(function(item) {
+            debugger;
+            var str = item.split('').sort().join('');
+            if (hash[str] === undefined) {
+                hash[str] = ans.length;
+                ans.push([item]);
+            } else {
+                ans[hash[str]].push(item);
+            }
+        });
+
+        return ans;
     };
 
-    console.log(countAndSay(1));
+    console.log(groupAnagrams(["eat","tea","tan","ate","nat","bat"]));
 </script>
 
 </body>
