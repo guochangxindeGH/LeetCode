@@ -10,45 +10,19 @@
      * @param {number} n
      * @return {string}
      */
-    var merge = function(intervals) {
-        intervals.sort(function(a, b) {
-            if (a.start !== b.start)
-                return a.start - b.start; // from small to big
-            return a.end - b.end;
-        });
-        debugger;
-
-        var len = intervals.length
-            , ans = []
-            , start
-            , end;
-
-        for (var i = 0; i < len; i++) {
-            var s = intervals[i].start
-                , e = intervals[i].end;
-
-            // begin a new one
-            if (start === undefined)
-                start = s, end = e;
-            else if (s <= end)
-                end = Math.max(e, end);
-            else {
-                var obj = new Interval(start, end);
-                ans.push(obj);
-                start = s;
-                end = e;
+    var uniquePathsWithObstacles = function(obstacleGrid) {
+        let pathCount = []
+        pathCount[0] = 1
+        for (let i = 0; i < obstacleGrid.length; i ++) {
+            for (let j = 0; j < obstacleGrid[0].length; j ++) {
+                if (obstacleGrid[i][j] == 1) pathCount[j] = 0
+                else if (j > 0) pathCount[j] = (typeof pathCount[j] == 'undefined' ? 0 : pathCount[j]) + (typeof pathCount[j - 1] == 'undefined' ? 0 : pathCount[j - 1])
             }
         }
-
-        if (start !== undefined) {
-            var obj = new Interval(start, end);
-            ans.push(obj);
-        }
-
-        return ans;
+        return pathCount[obstacleGrid[0].length - 1]
     };
 
-    console.log(merge([[1,3],[2,6],[8,10],[15,18]]));
+    console.log(uniquePathsWithObstacles([[0,0,0],[0,1,0],[0,0,0],[0,0,0]]));
 </script>
 
 </body>
