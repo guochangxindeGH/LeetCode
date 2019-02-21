@@ -10,19 +10,21 @@
      * @param {number} n
      * @return {string}
      */
-    var uniquePathsWithObstacles = function(obstacleGrid) {
-        let pathCount = []
-        pathCount[0] = 1
-        for (let i = 0; i < obstacleGrid.length; i ++) {
-            for (let j = 0; j < obstacleGrid[0].length; j ++) {
-                if (obstacleGrid[i][j] == 1) pathCount[j] = 0
-                else if (j > 0) pathCount[j] = (typeof pathCount[j] == 'undefined' ? 0 : pathCount[j]) + (typeof pathCount[j - 1] == 'undefined' ? 0 : pathCount[j - 1])
-            }
+    var uniquePathsWithObstacles = function(x) {
+        if (x == 0) return 0;
+        let last = 0;
+        let res = 1;
+        while (res != last)
+        {
+            debugger;
+            last = res;
+            res = (res + x / res) / 2;
         }
-        return pathCount[obstacleGrid[0].length - 1]
+        debugger;
+        return res;
     };
 
-    console.log(uniquePathsWithObstacles([[0,0,0],[0,1,0],[0,0,0],[0,0,0]]));
+    console.log(uniquePathsWithObstacles(8));
 </script>
 
 </body>
