@@ -10,22 +10,29 @@
      * @param {number} n
      * @return {string}
      */
-    var uniquePathsWithObstacles = function(x) {
-        if (x == 0) return 0;
-        let last = 0;
-        let res = 1;
-        while (res != last)
-        {
+    function StrLen(str) {
+        let result = 1
+        let norepeatStr = ''
+        let len = str.length
+        for (let i = 0; i < len; i++) {
             debugger;
-            last = res;
-            res = (res + x / res) / 2;
+            let specStr = str.charAt(i)
+            let index = norepeatStr.indexOf(specStr)
+            if (index === -1) {
+                norepeatStr = norepeatStr + specStr
+                result = result < norepeatStr.length ? norepeatStr.length : result
+            } else {
+                norepeatStr = norepeatStr.substr(index + 1) + specStr
+            }
         }
-        debugger;
-        return res;
-    };
+        return result
+    }
 
-    console.log(uniquePathsWithObstacles(8));
+    console.log(StrLen("abcdeatyuio"))
+
+
 </script>
+
 
 </body>
 </html>
