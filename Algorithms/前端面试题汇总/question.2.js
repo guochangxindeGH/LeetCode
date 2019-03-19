@@ -25,16 +25,20 @@
 
 
 function StrLen(str) {
-    let result = 1
-    let norepeatStr = ''
+    let result = 1    //最终要返回的结果的初始值
+    let norepeatStr = '' //用于存放无重复字符串
     let len = str.length
     for (let i = 0; i < len; i++) {
+        //charAt()获取的是字符串索引对应的具体字符
         let specStr = str.charAt(i)
+        //indexOf()查找的是某个字符第一次出现并返回这个索引值，若没有这个字符，返回-1
         let index = norepeatStr.indexOf(specStr)
         if (index === -1) {
+            //将遍历得到的字符（未重复）拼接在norepeatStr后面
             norepeatStr = norepeatStr + specStr
             result = result < norepeatStr.length ? norepeatStr.length : result
         } else {
+            //若遇到重复的字符，那么将已出现在norepeatStr里的字符删除，并将新的（重复的添加到末尾）
             norepeatStr = norepeatStr.substr(index + 1) + specStr
         }
     }
