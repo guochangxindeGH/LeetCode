@@ -12,25 +12,26 @@
      */
 
 
-    let n = 3
-    let m = 4
-    let arr = [2, 8, 10, 7]
-    let key = 0, max = 0
-    arr = arr.sort( (a, b) => {
-        return a - b   //升序
-    })
-    if (n < m) {
-        arr = arr.slice(m - n)  //截取出价高的人
+    let s = 'asdaaaaaad'
+    let count = 0, char = ''         //count出现次数 char字符
+    let arr = []        // 储存去重后字符
+    function foo(str) {         // 去重
+        return r = str.split("").filter(function (element, index, self) {
+            return self.indexOf(element) === index     // 输出第一次出现的字符
+        })
     }
+
+    arr = foo(s)
     for (let i = 0; i < arr.length; i ++) {
-        if (max < arr[i] * (arr.length - i)) {
-            max = arr[i] * (arr.length - i)
-            key = arr[i]
+        let n = (s.split(arr[i])).length - 1           //出现次数
+        if (count < n) {
+            count = n
+            char = arr[i]
         }
-    } 
+    }
+    console.log("count:" + count + ",char:" + char)
 
 
-    console.log(key)
 
 
 </script>
