@@ -12,24 +12,25 @@
      */
 
 
-    let s = 'asdaaaaaad'
-    let count = 0, char = ''         //count出现次数 char字符
-    let arr = []        // 储存去重后字符
-    function foo(str) {         // 去重
-        return r = str.split("").filter(function (element, index, self) {
-            return self.indexOf(element) === index     // 输出第一次出现的字符
-        })
+
+    function parseQueryString(url) {
+        let pos = url.indexOf('?')
+        let obj = {}
+        debugger
+        if (pos != -1) {
+            let urlString = url.slice(pos + 1)
+            let urlArr = urlString.split("&")
+            let keyValue = []
+            for (let i = 0; i < urlArr.length; i ++) {
+                keyValue = urlArr[i].split("=")
+                obj[keyValue[0]] = keyValue[1]
+            }
+        }
+        return obj
     }
 
-    arr = foo(s)
-    for (let i = 0; i < arr.length; i ++) {
-        let n = (s.split(arr[i])).length - 1           //出现次数
-        if (count < n) {
-            count = n
-            char = arr[i]
-        }
-    }
-    console.log("count:" + count + ",char:" + char)
+    console.log(parseQueryString("http://localhost:8080/a/b/c?a=1&b=2#abc"))
+
 
 
 
