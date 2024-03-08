@@ -25,7 +25,6 @@ let longestConsecutive = function(nums) {
       lenArr.push(maxLen);
     }
   }
-  debugger;
   return Math.max.apply(null, lenArr);
 };
 
