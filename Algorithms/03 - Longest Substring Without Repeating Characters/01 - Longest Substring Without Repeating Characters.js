@@ -17,4 +17,4 @@ var lengthOfLongestSubstring = function(s) {
     }
     return ans;
 };
-lengthOfLongestSubstring("qwertyeopopr")
+console.log(lengthOfLongestSubstring("qwertyeopopr"))
