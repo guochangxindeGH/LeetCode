@@ -85,5 +85,17 @@ var getIntersectionNode = function(headA, headB) {
   return null;
 };
 
-console.log(getIntersectionNode());
+var getIntersectionNode2 = function(headA, headB) {
+  if (headA === null || headB === null) {
+    return null;
+  }
+  let pA = headA, pB = headB;
+  while (pA !== pB) {
+      pA = pA === null ? headB : pA.next;
+      pB = pB === null ? headA : pB.next;
+  }
+  return pA;
+};
+
+console.log(getIntersectionNode2([4,1,8,4,5], [5,6,1,8,4,5]));
 
