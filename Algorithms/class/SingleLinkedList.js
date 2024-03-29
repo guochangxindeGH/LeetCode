@@ -1,8 +1,8 @@
 'use strict';
 //定义单向链表的节点类
 class Node {
-  constructor(data) {
-    this.data = data    //节点的数据部分
+  constructor(val) {
+    this.val = val    //节点的数据部分
     this.next = null    //节点的链接部分(指针部分)   
   }
 }
@@ -99,7 +99,7 @@ class SingleLinked {
     var list = ''
     var currentNode = this.head  //指向链表的头指针
     while (currentNode) {  //若当前节点不为空，则执行循环
-      list += currentNode.data    //连接节点的数据域
+      list += currentNode.val    //连接节点的数据域
       currentNode = currentNode.next  //让当前指针指向当前节点的下一个节点
       if (currentNode) {   //如果currentNode不为空则加上连接符
         list += '->'  //链表节点的连接符
@@ -132,7 +132,7 @@ class SingleLinked {
     var currentNode = this.head
     try {
       while ((currentNode.next != null) && (currentNode.next.element != element)) {  //判断，如果节点靠后则节点的next的next为空，不为空时进行删除
-        if (currentNode.next.data === element) {
+        if (currentNode.next.val === element) {
           currentNode.next = currentNode.next.next
           this.size--
         } else {

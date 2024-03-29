@@ -54,4 +54,4 @@ list.appendNode(2)
 list.appendNode(3) 
 list.appendNode(4) 
 list.appendNode(5) 
-console.log(reverseList(list.head));
+console.log(reverseList(list.head.next));
