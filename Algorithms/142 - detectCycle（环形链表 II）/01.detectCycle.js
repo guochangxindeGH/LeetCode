@@ -65,11 +65,11 @@ var detectCycle = function(head) {
  * 假设链表共有 a + b 个节点，b为环链表长度
  * slow 指针走了s步，fast走了f步 
  * 两指针相遇时：f = 2s； f = s + nb
- * 得：s = nb， f = 2nb
- * 
+ * 得：s = nb， f = 2nb 
+ * 注：s可能大于a，两个指针相交与b圈内
  * 双指针第二次相遇：
-  令 fast 重新指向链表头部节点。此时 f=0，bs=nb 。
-  slow 和 fast 同时每轮向前走 111 步。
+  令 fast 重新指向链表头部节点。此时 f=0，s=nb 。
+  slow 和 fast 同时每轮向前走 1 步。
   当 fast 指针走到 f=a 步时，slow 指针走到 s=a+nb 步。此时两指针重合，并同时指向链表环入口，返回 slow 指向的节点即可。
 */
 var detectCycle2 = function(head) {
