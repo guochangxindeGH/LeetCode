@@ -75,7 +75,7 @@ var detectCycle = function(head) {
 var detectCycle2 = function(head) {
   let fast = head, slow = head;
   while (true) {
-    if (fast === null || fast === null) {
+    if (fast === null || fast.next === null) {
       return null;
     }
     fast = fast.next.next;
