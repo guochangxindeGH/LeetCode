@@ -30,10 +30,8 @@ var searchInsert = function(nums, target) {
             return mid;
         } else if (nums[mid] > target) {
             j = mid - 1;
-            mid = parseInt((i + j) / 2);
         } else {
             i = mid + 1;
-            mid = parseInt((i + j) / 2);
         }
     }
     return i;
