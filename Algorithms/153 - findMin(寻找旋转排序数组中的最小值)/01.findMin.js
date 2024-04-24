@@ -34,6 +34,7 @@
 var findMin = function(nums) {
   let left = 0, right = nums.length - 1;
   while (left < right) {
+    if (left + 1 === right) return Math.min(nums[left], nums[right]);
     const mid = parseInt((left + right) / 2); /* 地板除，mid更靠近left */
     if (nums[mid] > nums[right]) {            /* 中值 > 右值，最小值在右半边，收缩左边界 */ 
       left = mid + 1;                         /* 因为中值 > 右值，中值肯定不是最小值，左边界可以跨过mid */ 
