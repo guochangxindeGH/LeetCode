@@ -46,7 +46,7 @@ var decodeString = function(s) {
     } else if (char === ']') {
       // 出栈
       const time = numList.pop();
-      result = strList.pop() + result.repeat(time);
+      result = strList.pop() + result.repeat(time); // repeat(num) 表示将对象复制多少倍
     } else {
       result += char;
     }
