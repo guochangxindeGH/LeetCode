@@ -7,18 +7,20 @@
   约瑟夫环问题可以有多种变化，所以我取了比较有代表性的一种，读者可以根据需要自行修改。
 */
 
-// 方法一：普通数组
+// 方法一：数组
 const jhonRing = (n, m) => {
   let arr = [], res = [];
   for (let i = 0; i < n; i ++) {
     arr[i] = i + 1;
   }
   while (arr.length >= m) {
-    let newArray = [];
     let index = arr.length - arr.length % m;
-    res.push(arr[index - 1]);
-    newArray = arr.slice(index);
-    arr = newArray.concat(arr.slice(0, index - 1));
+    res.push(arr[index === 0 ? (arr.length - 1) : (index - 1)]);
+    if (index === 0) {
+      arr = arr.slice(0, index - 1);
+    } else {
+      arr = arr.slice(index).concat(arr.slice(0, index - 1));
+    }
   }
   while (arr.length > 1) {
     let index = m % arr.length;
@@ -34,3 +36,93 @@ const jhonRing = (n, m) => {
 }
 
 jhonRing(10, 6);
+
+
+/**
+ * 方法二：链表
+ * @param {ListNode} head
+ * @return {boolean}
+ */
+import SingleLinked from '../class/SingleLinkedList.js';
+
+function createList(num) {
+  //链表节点的数据结构
+  function createNode(value) {
+      return {
+          value: value,
+          next: ''
+      }
+  }
+  //链表头节点
+  let head = createNode(1);
+  let node = head;
+  //自头节点之后创建节点之间的关联关系
+  for (let i = 2; i <= num; i++) {
+      node.next = createNode(i);
+      node = node.next;
+  }
+  //最后一个节点指向头节点，构成循环链表
+  node.next = head;
+  return head;
+  // const list = new SingleLinked()
+  // list.appendNode(1)   //创建链表节点
+  // list.appendNode(2)
+  // list.appendNo`de(3)
+  // list.appendNode(4)
+  // list.appendNode(5)   //创建链表节点
+  // list.appendNode(6)
+  // list.appendNode(7)
+  // list.appendNode(8)
+  // list.appendNode(9)   //创建链表节点
+  // list.appendNode(10)
+  // list.appendNode(11)
+  // list.appendNode(12)
+  // return list.head.next;
+}
+
+function deleteListNode(num, m) {
+  let res = [];
+  let node = createList(num, m);
+  while (num > 1) {
+    for (let i = 1; i <= m - 1; i ++) {
+      if (i === m - 1) {
+        res.push(node.next.value);
+        node.next = node.next.next;
+        num --;
+      }
+      node = node.next;
+    }
+  }
+  res.push(node.value);
+  return node.value;
+}
+
+deleteListNode(10, 6);
+
+/**
+ * 方法三：数学解法
+ * @param {ListNode} head
+ * @return {boolean}
+ */
+
+function Josephus(num,nth){
+  if(num==1){
+      return 0;
+  }else{
+      return (Josephus(num-1,nth)+nth)%num
+  }
+}
+//Josephus(N,M)+1即为最终编号
+
+// 优化后
+function JosephusR(num, nth){
+  let value = 0, res = [];
+  for(let i = 1; i <= num; i ++){
+      //此处为对i取余，上述递归中num也是在逐渐变小的，所以此处为i而非num
+      value = (value + nth) % i;
+      // res.push(value);
+  }
+  return value + 1;
+}
+//JosephusR(N,M)即为最终编号
+JosephusR(10, 6);
