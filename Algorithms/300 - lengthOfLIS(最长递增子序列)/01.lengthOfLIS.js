@@ -24,6 +24,7 @@
 
  * @param {number[]} nums
  * @return {number}
+ * 动态规划
  */
 var lengthOfLIS = function(nums) {
   let res = new Array(nums.length).fill(1);
@@ -41,6 +42,7 @@ var lengthOfLIS = function(nums) {
 /**
  * @param {number[]} nums
  * @return {number}
+ * 此方法不会得出正确的最长递增子序列，但是可算出最长子序列的长度
  */
 var lengthOfLIS1 = function(nums) {
 
@@ -59,6 +61,8 @@ var lengthOfLIS1 = function(nums) {
 
   return tails.length
 };
+lengthOfLIS1([4, 2, 3, 1, 5]);
+lengthOfLIS1([10,9,3,5,2,7,101,18]);
 
 
 // 这种方案跟上面是一样的，只是把findIndex()换成了二分查找

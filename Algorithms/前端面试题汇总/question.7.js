@@ -4,7 +4,7 @@
 
 let k = "1234567898765432"  //最小循环节
 function getNum(m) {
-    console.log(k.charAt(n % k .length - 1))
+    console.log(k.charAt(m % k .length - 1))
 }
 getNum(20)
 
