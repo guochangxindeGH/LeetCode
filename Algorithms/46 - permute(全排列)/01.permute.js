@@ -37,6 +37,7 @@ var permute = function(nums) {
     }
   }
   dfs();
+  console.log(res);
   return res;
 };
 
