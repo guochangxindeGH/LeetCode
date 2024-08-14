@@ -2,9 +2,11 @@
 * 7、"123456789876543212345678987654321…"的第n位是什么？—小米面试题
 * */
 
-let k = "1234567898765432"  //最小循环节
+let k = "12345678987654321"  //最小循环节
 function getNum(m) {
-    console.log(k.charAt(m % k .length - 1))
+    const index = m % k .length - 1;
+    console.log(index)
+    console.log(k.charAt(index))
 }
 getNum(20)
 
