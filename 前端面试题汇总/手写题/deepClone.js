@@ -1,7 +1,7 @@
 /**
  * 递归拷贝
 */
-function deepClone(target) {
+function deepClon0(target) {
   let result;
   if (typeof target === 'object') {
     if (Array.isArray(target)) { // 如果是一个数组的话
@@ -108,25 +108,66 @@ const clone = target => {
   return _clone(target);
 }
 
-let obj1 = {
-  a: {
-      c: /a/,
-      d: undefined,
-      b: null
-  },
-  b: function () {
-      console.log(this.a)
-  },
-  c: [
-      {
-          a: 'c',
-          b: /b/,
-          c: undefined
-      },
-      'a',
-      3
-  ]
+const deepClone = (obj, hash = new WeakMap()) => {
+  // let res
+  if (obj === null) return null
+  else if (typeof obj !== 'object') { // 不是对象就是基本数据类型，直接赋值
+    return obj
+  } else if (obj.constructor === Date) { // obj instanceof Date) || Object.prototype.toString.call(obj) === '[object Date]'
+    return new Date(obj)
+  } else if (obj.constructor === RegExp) { // obj instanceof RegExp || Object.prototype.toString.call(obj) === '[object RegExp]'
+    return new RegExp(obj)
+  }
+  // else if (typeof source === 'symbol') {
+  //   return Symbol(obj.description)
+  // }
+
+  if (hash.has(obj)) {
+    return hash.get(obj)
+  }
+
+  // 获取目标对象的所有属性描述符
+  let allDesc = Object.getOwnPropertyDescriptors(obj)
+
+  // 创建一个新对象 cloneObj，并将其原型链指向 obj 的原型对象
+  let res = Object.create(Object.getPrototypeOf(obj), allDesc)
+  // let res = Object.create(Object.getPrototypeOf(obj))
+  
+  hash.set(obj, res)
+
+  const list = Reflect.ownKeys(obj)
+
+  for (const key of list) {
+    if (typeof obj[key] === 'object' && typeof obj[key] !== 'function' && obj[key] !== null) {
+      res[key] = deepClone(obj[key], hash)
+    } else {
+      res[key] = obj[key]
+    }
+  }
+  return res
 }
-// let obj2 = deepClone(obj1);
-let obj2 = clone(obj1);
-console.log(obj2);
+
+// 下面是验证代码
+let obj = {
+  num: 0,
+  str: '',
+  boolean: true,
+  unf: undefined,
+  nul: null,
+  obj: { name: '我是一个对象', id: 1 },
+  arr: [0, 1, 2],
+  func: function () { console.log('我是一个函数') },
+  date: new Date(0),
+  reg: new RegExp('/我是一个正则/ig'),
+  [Symbol('1')]: 1,
+};
+Object.defineProperty(obj, 'innumerable', {
+  enumerable: false, value: '不可枚举属性' }
+);
+obj = Object.create(obj, Object.getOwnPropertyDescriptors(obj))
+obj.loop = obj    // 设置loop成循环引用的
+
+let cloneObj = deepClone(obj)
+cloneObj.arr.push(4)
+console.log('obj', obj)
+console.log('cloneObj', cloneObj)
