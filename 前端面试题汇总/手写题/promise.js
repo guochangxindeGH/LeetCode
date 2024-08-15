@@ -24,32 +24,51 @@ function isPromise(val) {
     如果成功的回调还是 pormise，就递归继续解析
     因为成功和失败只能调用一个，所以设定一个 called 来防止多次调用
 */
+// function resolvePromise(promise2, x, resolve, reject) {
+//   // 如果 new 出来的 Promise2 和 x 是同一个，直接报错（循环引用）
+//   if (promise2 === x) {
+//     return reject(new TypeError('Chaining cycle detected for promise #<Promise>'))
+//   }
+//   // 先判断是不是对象或者函数
+//   if (x !== null && (typeof x === 'object' || typeof x === 'function')) {
+//     // 调用了成功就不能失败，调用的失败就不能成功。不能多次调用成功或者失败
+//     let called
+//     try {
+//       // 内部可能抛出错误
+//       let then = x.then
+//       // 如果 x.then 不是函数就说明是一个普通值，直接返回 x 
+//       if (typeof then === 'function') {
+//         // 利用.call将this指向 x, 防止x.then()报错
+//         this.call(x, res => {
+//           if (called) return
+//           called = true
+//           // res 可能是一个 promise ，递归调用resolvePromise，直到解析出的值是普通值
+//           resolvePromise(promise2, res, resolve, reject)
+//         }, err => {
+//           if (called) return
+//           called = true
+//           // 直接调用 promise的 reject 作为失败的结果，并向下传递
+//           reject(err)
+//         })
+//       } else {
+//         resolve(x)
+//       }
+//     } catch (error) {
+//       if (called) return
+//       called = true
+//       reject(error)
+//     }
+//   } else {
+//     resolve(x)
+//   }
+// }
+
 function resolvePromise(promise2, x, resolve, reject) {
   if (promise2 === x) {
     return reject(new TypeError('Chaining cycle detected for promise #<Promise>'))
   }
-  if (x !== null && (typeof x === 'object' || typeof x === 'function')) {
-    let called
-    try {
-      let then = x.then
-      if (typeof then === 'function') {
-        this.call(x, res => {
-          if (called) return
-          called = true
-          resolvePromise(promise2, res, resolve, reject)
-        }, err => {
-          if (called) return
-          called = true
-          reject(err)
-        })
-      } else {
-        resolve(x)
-      }
-    } catch (error) {
-      if (called) return
-      called = true
-      reject(error)
-    }
+  if (isPromise(x) || x instanceof myPromise) {
+    x.then(resolve, reject)
   } else {
     resolve(x)
   }
@@ -144,7 +163,25 @@ class myPromise {
     })
     return promise2
   }
-  
+
+  // finally(callback){
+  //   return this.then((value) => {
+  //         callback()
+  //         return value
+  //       }, (err) => {
+  //         callback()
+  //         throw err
+  //       }
+  //   )
+  // }
+  finally(callback){
+    return this.then(val => {
+      return myPromise.resolve(callback()).then(() => val)
+    }, (err) => {
+      return myPromise.resolve(callback()).then(() => {throw err})
+    })
+  }
+
   catch(errCallback) {
     return this.then(null, errCallback)
   }
@@ -159,11 +196,31 @@ myPromise.reject = () => {
     reject(val)
   })
 }
-myPromise.prototype.finally = (callback) => {
-  return this.then(val => {
-    return myPromise.resolve(callback()).then(() => val)
-  }, (err) => {
-    return myPromise.resolve(callback()).then(() => {throw err})
+
+myPromise.all = (array) => {
+  return new myPromise((resolve, reject) => {
+    let result = []
+    let count = 0
+    const addData = (i, data) => {
+      result[i] = data
+      count ++
+      if (count === array.length) {
+        resolve(result)
+      }
+    }
+
+    for (let i = 0; i < array.length; i ++ ) {
+      let current = array[i]
+      if (isPromise(current)) {
+        current.then(data => {
+          addData(i, data)
+        }, (err) => {
+          reject(err)
+        })
+      } else {
+        addData(i, current)
+      }
+    }
   })
 }
 
@@ -194,49 +251,49 @@ myPromise.defer = myPromise.deferred = function () {
   return dfd;
 }
 
-
-// 定义一个请求远程数据的方法，并用定时器模拟异步
-function requests(id, callback) {
-	// 根据参数发送请求，这里使用打印模拟
-	console.log(`携带${id}参数发送请求`)
-	// 使用定时器三秒后接收请求数据结果
-	setTimeout(() => {
-		// 请求成功后调用回调
-		callback({ name: '张三', age: 18, address: '杭州' })
-	}, 3000)
+function p1() {
+  return new myPromise(function (resolve, reject) {
+    setTimeout(function() {
+      resolve('p1')
+    },2000)
+  })
 }
-requests(1, foo)
-
-// 请求数据成功执行的回调函数
-//  - 通常这时候我们会根据数据执行一些操作
-function foo(data) {
-	console.log(`${data.name}今年${data.age}岁了, 在${data.address}上学`)
+function p2() {
+  return new myPromise(function (resolve, reject) {
+    resolve('p2')
+  })
 }
-
-
-const myPromise1 = myPromise.resolve(1)
-
-const myPromise2 = new myPromise((resolve, reject) => {
-    console.log('success');
-    resolve('success')
-    reject('fail')
-}).then((res) => {
-    console.log(3);
-    // resolve(3)
-}).then(res => {
-  console.log(4);
-}).catch(reason => {
-  console.error(reason);
-});
-
-const promise1111 = new Promise((resolve, reject) => {
-  console.log('promise', 2);
-  resolve(2)
-}).then((res) => {
-  console.log('promise', 3);
-}).then(res => {
-  console.log('promise', 4);
+myPromise.all(['a', 'b', p1(), p2(), 'c']).then(function(result) {
+  // result -> ['a', 'b', 'p1', 'p2', 'c']
+  console.log(result)
 })
 
 
-export default myPromise;
+
+// const myPromise2 = new myPromise((resolve, reject) => {
+//     console.log('success');
+//     resolve('success')
+//     reject('fail')
+// }).then((res) => {
+//     console.log(3);
+// }).then(res => {
+//   console.log(4);
+// }).finally(res => {
+//   console.log('finally', res);
+// }).catch(reason => {
+//   console.error(reason);
+// });
+
+// const promise1111 = new Promise((resolve, reject) => {
+//   console.log('promise', 2);
+//   resolve(2)
+// }).then((res) => {
+//   console.log('promise', 3);
+// }).then(res => {
+//   console.log('promise', 4);
+// }).finally(res => {
+//   console.log('promise', res);
+// }).catch(reason => {
+//   console.log('promise', reason);
+// })
+// export default myPromise;
