@@ -116,8 +116,14 @@ const deepClone = (obj, hash = new WeakMap()) => {
   } else if (obj.constructor === Date) { // obj instanceof Date) || Object.prototype.toString.call(obj) === '[object Date]'
     return new Date(obj)
   } else if (obj.constructor === RegExp) { // obj instanceof RegExp || Object.prototype.toString.call(obj) === '[object RegExp]'
+    // return new RegExp(obj.source, obj.flags);
     return new RegExp(obj)
   }
+  // else if (obj instanceof Function) {
+  //   return function () {
+  //     return obj.apply(this, arguments);
+  //   }
+  // }
   // else if (typeof source === 'symbol') {
   //   return Symbol(obj.description)
   // }
@@ -133,6 +139,7 @@ const deepClone = (obj, hash = new WeakMap()) => {
   let res = Object.create(Object.getPrototypeOf(obj), allDesc)
   // let res = Object.create(Object.getPrototypeOf(obj))
   
+  // 把源对象和新对象放进缓存列表
   hash.set(obj, res)
 
   const list = Reflect.ownKeys(obj)

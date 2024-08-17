@@ -35,7 +35,7 @@ const jhonRing = (n, m) => {
   return res;
 }
 
-jhonRing(10, 6);
+// jhonRing(10, 6);
 
 
 /**
@@ -125,4 +125,4 @@ function JosephusR(num, nth){
   return value + 1;
 }
 //JosephusR(N,M)即为最终编号
-JosephusR(10, 6);
+console.log(JosephusR(10, 6));
