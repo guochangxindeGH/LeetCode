@@ -49,8 +49,8 @@ class EventBus {
   emit(type, data) {
     this.map[type] && this.map[type].forEach(handler => {
       handler(data)
-      // handler.apply(this, [data]);
       // handler.call(this, data);
+      // handler.apply(this, [data]);
     })
   }
   off(type, handler) {

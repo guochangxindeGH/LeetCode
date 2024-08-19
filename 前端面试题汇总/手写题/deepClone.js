@@ -116,8 +116,7 @@ const deepClone = (obj, hash = new WeakMap()) => {
   } else if (obj.constructor === Date) { // obj instanceof Date) || Object.prototype.toString.call(obj) === '[object Date]'
     return new Date(obj)
   } else if (obj.constructor === RegExp) { // obj instanceof RegExp || Object.prototype.toString.call(obj) === '[object RegExp]'
-    // return new RegExp(obj.source, obj.flags);
-    return new RegExp(obj)
+    return new RegExp(obj) // return new RegExp(obj.source, obj.flags);
   }
   // else if (obj instanceof Function) {
   //   return function () {
