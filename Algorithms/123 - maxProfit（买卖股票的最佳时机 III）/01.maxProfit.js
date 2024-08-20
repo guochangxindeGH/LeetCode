@@ -54,6 +54,8 @@ var maxProfit1 = function(prices) {
   console.log(sell2)
   return sell2;
 }
+
+
 var maxProfit2 = function(prices) {
   let n = prices.length
   let res = new Array(n).fill(0).map(v => new Array(4).fill(0))
