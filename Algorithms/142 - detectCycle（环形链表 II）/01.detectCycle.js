@@ -74,20 +74,19 @@ var detectCycle = function(head) {
 */
 var detectCycle2 = function(head) {
   let fast = head, slow = head;
-  while (true) {
-    if (fast === null || fast.next === null) {
-      return null;
+  while (fast && fast.next) {
+    slow = slow.next
+    fast = fast.next.next
+    if (fast === slow) {
+      fast = head
+      while (fast !== slow) {
+        fast = fast.next
+        slow = slow.next
+      }
+      return slow
     }
-    fast = fast.next.next;
-    slow = slow.next;
-    if (fast === slow) break;
   }
-  fast = head;
-  while(fast !== slow) {
-    fast = fast.next;
-    slow = slow.next;
-  }
-  return fast;
+  return null
 };
 
 
@@ -96,4 +95,4 @@ list.appendNode(1)   //创建链表节点
 list.appendNode(2) 
 list.appendNode(3) 
 list.appendNode(2) 
-console.log(hasCycle(list.head.next));
+console.log(detectCycle2(list.head.next));
