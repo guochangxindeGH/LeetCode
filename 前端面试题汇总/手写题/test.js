@@ -1,18 +1,21 @@
 
 
 
-var maxProfit = function(prices) {
-  let max = 0
-  let begin = prices[0]
-  for(let i = 1; i < prices.length; i ++) {
-    if (prices[i] < begin) {
-      begin = prices[i]
-    } else if (prices[i] > begin) {
-      max = Math.max(max, prices[i] - begin)
-    }
-  }
-  return max
-}
 
-console.log(maxProfit([7,1,5,3,6,4]))
-console.log(maxProfit([7,6,4,3,1]))
+let strNum = '1234567.890123'
+
+
+function parseToMoney(str){
+  // return str.replace(/(?=(?!\b)(\d{3})+$)/g,','); // 无小数点
+  // return str.replace(/(\d)(?=(\d{3})+$)/g,'$1,'); // 无小数点
+  return str.replace(/(\d)(?=(\d{3})+\.)/g,'$1,') // 有小数点
+}
+console.log(parseToMoney(strNum))
+
+
+let num = 1234567890;
+// let reg = /\d{1,3}(?=(\d{3})+$)/g;   // 无小数点
+// console.log(String(num).replace(reg, '$&,')); //"1,234,567,890"
+
+let reg = /\B(?=(\d{3})+$)/g;   
+console.log(String(num).replace(reg, ',')); //"1,234,567,890"
