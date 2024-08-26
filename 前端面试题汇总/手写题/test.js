@@ -1,21 +1,18 @@
 
 
 
-
-let strNum = '1234567.890123'
-
-
-function parseToMoney(str){
-  // return str.replace(/(?=(?!\b)(\d{3})+$)/g,','); // 无小数点
-  // return str.replace(/(\d)(?=(\d{3})+$)/g,'$1,'); // 无小数点
-  return str.replace(/(\d)(?=(\d{3})+\.)/g,'$1,') // 有小数点
+function maxNum(nums) {
+  let res = nums[0]
+  let cur = 0
+  for (const num of nums) {
+    if (cur > 0) {
+      cur += num
+    } else {
+      cur = num
+    }
+    res = Math.max(res, cur)
+  }
+  return res;
 }
-console.log(parseToMoney(strNum))
 
-
-let num = 1234567890;
-// let reg = /\d{1,3}(?=(\d{3})+$)/g;   // 无小数点
-// console.log(String(num).replace(reg, '$&,')); //"1,234,567,890"
-
-let reg = /\B(?=(\d{3})+$)/g;   
-console.log(String(num).replace(reg, ',')); //"1,234,567,890"
+console.log(maxNum([-2,1,-3,4,-1,2,1,-5,4]))

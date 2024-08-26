@@ -16,7 +16,7 @@ var findMedianSortedArrays = function(nums1, nums2) {
         const i = low + Math.floor((high - low) / 2)
         const j = Math.floor((m + n + 1) / 2) - i
 
-        const maxLeftA = i === 0 ? -Infinity : nums1[i-1]
+        const maxLeftA = i === 0 ? -Infinity : nums1[i-1] // Infinity 无穷
         const minRightA = i === m ? Infinity : nums1[i]
         const maxLeftB = j === 0 ? -Infinity : nums2[j-1]
         const minRightB = j === n ? Infinity : nums2[j]

@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/guochangxindeGH/LeetCode/issues"
   },
-  "homepage": "https://github.com/guochangxindeGH/LeetCode#readme"
+  "homepage": "https://github.com/guochangxindeGH/LeetCode#readme",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0"
+  }
 }

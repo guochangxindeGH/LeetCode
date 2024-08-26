@@ -33,7 +33,7 @@ minStack.getMin();   --> 返回 -2.
 */
 var MinStack = function() {
   this.stack = [];
-  this.min_stack = [Infinity];
+  this.min_stack = [Infinity]; // Infinity 无穷
 };
 
 /** 

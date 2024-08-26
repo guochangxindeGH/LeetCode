@@ -163,17 +163,7 @@ class myPromise {
     })
     return promise2
   }
-
-  // finally(callback){
-  //   return this.then((value) => {
-  //         callback()
-  //         return value
-  //       }, (err) => {
-  //         callback()
-  //         throw err
-  //       }
-  //   )
-  // }
+  
   finally(callback){
     return this.then(val => {
       return myPromise.resolve(callback()).then(() => val)
