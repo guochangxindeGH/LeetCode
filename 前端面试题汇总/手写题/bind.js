@@ -12,7 +12,7 @@ Function.prototype.bind2 = function (asThis) {
     var args2 = slice.call(arguments, 0);
     return fn.apply(
       // 如果是通过new的方式调用，那么也以new的方式来调用；通过原型对比来判断是否是new调用. isPrototypeOf(),判断当前对象是否为另外一个对象的原型 
-      resultFn.prototype.isPrototypeOf(this) ? this : asThis, // 也可以这样判断，其实就是判断是不是new调用的，resultFn.prototype === Object.getPrototypeOf(this),
+      resultFn.prototype.isPrototypeOf(this) ? this : asThis, // 也可以这样判断: resultFn.prototype === Object.getPrototypeOf(this),其实就是判断是不是new调用的
       args.concat(args2));
   };
   // 此处使用 Object.create ，是为了防止修改 boundFn.prototype 属性时，将 fn.prototype 的属性误修改

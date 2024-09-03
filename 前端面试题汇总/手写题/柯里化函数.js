@@ -1,24 +1,39 @@
 
-// 实现一个add方法，使计算结果能够满足如下预期：
-add(1)(2)(3) = 6;
-// add(1, 2, 3)(4) = 10;
-// add(1)(2)(3)(4)(5) = 15;
 
-function add() {
-  let args = Array.prototype.slice.call(arguments)
-  
-  let res = function() {
-    let args2 = Array.prototype.slice.call(arguments)
-    let args3 = [...arguments]
-    args.push(...arguments)
-    return res;
-  }
 
-  res.toString = function() {
-    return res.reduce(function(a, b) {
-      return a + b;
-    })
-  }
-
-  return res;
+function add(x, y, z) {
+  return x + y + z
 }
+
+
+function myCurried(fn, ...args) {
+  let args1 = Array.prototype.slice.call(arguments, 1)
+  
+  if (args.length >= fn.length) {
+    return fn.call(this, ...args);
+  } else {
+    return function() {
+      // return myCurried(fn, ...arguments, ...args1)
+      return myCurried.call(this, fn, ...arguments, ...args1);
+    }
+  }  
+}
+
+// function myCurried(fn) {
+//   return function curry(...args1) {
+//     if (args1.length >= fn.length) {
+//       return fn.call(null, ...args1)
+//     } else {
+//       return function (...args2) {
+//         return curry.apply(null, [...args1, ...args2])
+//       }
+//     }
+//   }
+// }
+
+let addCurry = myCurried(add)
+
+console.log(addCurry(1, 2, 3));
+console.log(addCurry(1, 2)(3));
+console.log(addCurry(1)(2, 3));
+console.log(addCurry(1)(2)(3));

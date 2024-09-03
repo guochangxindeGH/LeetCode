@@ -95,6 +95,7 @@ function newGenerator(generatorFunc, ...args) {
 newGenerator(generator)
 
 
+
 function asyncToGenerator(generatorFunc) {
   // 先调用generator函数 生成迭代器
   // 对应 var gen = testG()

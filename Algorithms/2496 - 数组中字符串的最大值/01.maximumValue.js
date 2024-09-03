@@ -1,6 +1,8 @@
 
 
 /**
+ * 2496. 数组中字符串的最大值
+ * 
  * @param {string[]} strs
  * @return {number}
  */

@@ -48,7 +48,7 @@ Function.prototype.myApply = function (asThis) {
 // 测试⼀下
 var value = 2;
 var obj = { value: 1 }
-function bar(name, age) {
+function bar2(name, age) {
   console.log(this.value);
   return {
     value: this.value,
@@ -56,6 +56,6 @@ function bar(name, age) {
     age: age
   } 
 }
-bar.myApply(null); // 2
-console.log(bar.myApply(obj, ['kevin', 18]));
+bar2.myApply(null); // 2
+console.log(bar2.myApply(obj, ['kevin', 18]));
 
