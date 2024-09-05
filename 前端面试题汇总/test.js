@@ -1,36 +1,24 @@
-function myCurried(fn) {
-  return function curry(...args1) {
-    if (args1.length >= fn.length) {
-      return fn.call(null, ...args1)
+
+//【美团】亲爱的郭昌鑫，您的视频面试如下，时间：2024-09-06 19:00，请在面试时打开该链接： dpurl.cn/oCBbuVJz。联系人：王鹏 15003883808
+
+
+
+// K小姐的植物浇水
+
+function countNum(x, y, z) {
+  let i = 0;
+  let days = 0, load = 0
+  while(i < z) {
+    if (!load) {
+      i += y
+      load = 2
     } else {
-      return function (...args2) {
-        return curry.apply(null, [...args1, ...args2])
-      }
+      i += x
+      load -= 1
     }
+    days ++
   }
+  console.log(days, i)
 }
 
-function sum(a, b, c, d, e) {
-  return a + b + c + d + e
-}
-let resFunc = myCurried(sum)
-console.log(resFunc(1,3,4)(1)(23))
-//解析:
-//1、这里的fn.length获取的是函数传入参数的长度
-//2、这里使用递归的思想
-
-
-var json = '{"name":"cxk", "age":25}';
-var obj = eval("(" + json + ")");
-console.log(json)
-console.log(obj)
-
-var name = 'ok!';
-(function () {
-    if (typeof name === 'undefined') {
-      var name = 'Jack';
-      console.log('Hi ' + name);
-    } else {
-      console.log('Hello ' + name);
-    }
-})();
+countNum(1, 2, 8);

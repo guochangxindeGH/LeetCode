@@ -167,13 +167,13 @@ let obj = {
   reg: new RegExp('/我是一个正则/ig'),
   [Symbol('1')]: 1,
 };
-Object.defineProperty(obj, 'innumerable', {
-  enumerable: false, value: '不可枚举属性' }
-);
+// Object.defineProperty(obj, 'innumerable', {
+//   enumerable: false, value: '不可枚举属性' }
+// );
 obj = Object.create(obj, Object.getOwnPropertyDescriptors(obj))
 obj.loop = obj    // 设置loop成循环引用的
 
 let cloneObj = deepClone(obj)
-cloneObj.arr.push(4)
+obj.reg = new RegExp('/我是一个新正则/ig')
 console.log('obj', obj)
 console.log('cloneObj', cloneObj)

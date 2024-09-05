@@ -38,3 +38,25 @@ function formatWithThousandSeparator(number) {
  
 // 使用示例
 console.log(formatWithThousandSeparator(1234567.8901234567)); // 输出: 1,234,567.89
+
+
+
+
+// 笨方法
+let arr = []
+function main(num) {
+    if (num === null) return
+    let n = parseInt(num).toString()
+    s(n)
+}
+function s(num) {
+    if (num.length > 3) {
+        arr[arr.length] = num.slice(-3)
+        s(num.slice(0, -3))
+    } else {
+        arr[arr.length] = num
+    }
+}
+main(123456789)
+
+console.log(arr.reverse().join(","))

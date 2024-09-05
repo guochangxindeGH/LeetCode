@@ -23,7 +23,7 @@ function bar(name, age) {
     age: age
   } 
 }
-bar.myCall(null); // 2
+// bar.myCall(null); // 2
 console.log(bar.myCall(obj, 'kevin', 18));
 
 

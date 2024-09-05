@@ -5,7 +5,7 @@
 给定自然数N，若N为1或则素数，则和为N。否则分解N为若干自然数的和，求最小和
 思路：首先要解决怎样分解和才最小，对于任何大于2的自然数a,b；则1/a+1/b<1/2+1/2=1,所以a+b<ab.所以对于N的任何一个因此m,若m=ab,由于m>a+b,所以应该将m分解成a和b。所以和最小的情况是将N分解成所有素数乘积。
 */
-
+// 方法一：DFS
 function dfs(num) {
   if (num <= 2) {
     return num;
@@ -21,6 +21,7 @@ function dfs(num) {
 console.log(dfs(16))
 
 
+// 方法二
 function MinSum (number)
 {
     let i=2;
