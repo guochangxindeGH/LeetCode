@@ -61,7 +61,8 @@ let subarraySum2 = function(nums, k) {
   return count;
 };
 
-console.log(subarraySum2([-1,-1,1], 0));
+// console.log(subarraySum2([-1,-1,1], 0));
+console.log(subarraySum2([1,1,1,1], 2));
 
 
 

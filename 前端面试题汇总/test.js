@@ -3,22 +3,28 @@
 
 
 
-// K小姐的植物浇水
 
-function countNum(x, y, z) {
-  let i = 0;
-  let days = 0, load = 0
-  while(i < z) {
-    if (!load) {
-      i += y
-      load = 2
+// 平均数为k的最长连续子数组
+function countNum(nums, k) {
+
+  const map = new Map();
+  map.set(0, 0);
+
+  let ans = 0;
+
+  let pre = 0, cur = 0;
+  
+
+  for (let i = 1; i <= nums.length; i++) {
+    cur = pre + nums[i - 1] - k;
+    if (map.has(cur)) {
+        ans = Math.max(ans, i - map.get(cur));
     } else {
-      i += x
-      load -= 1
+        map.set(cur, i);
     }
-    days ++
+    pre = cur;
   }
-  console.log(days, i)
+  console.log(ans)
 }
 
-countNum(1, 2, 8);
+countNum([3,1,0,4], 2);
