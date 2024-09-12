@@ -189,18 +189,23 @@ myPromise.reject = () => {
 
 myPromise.all = (array) => {
   return new myPromise((resolve, reject) => {
+    // 存放结果
     let result = []
+    // 计数，当count 等于 length的时候就resolve
     let count = 0
     const addData = (i, data) => {
+      // 将执行结果缓存在res中
       result[i] = data
       count ++
+      // 所有子项执行完毕之后，执行resolve 抛出所有的执行结果
       if (count === array.length) {
         resolve(result)
       }
     }
-
+    // 循环遍历每一个参数的每一项
     for (let i = 0; i < array.length; i ++ ) {
       let current = array[i]
+      // 如果当前项是Promise，则返回 then 的结果
       if (isPromise(current)) {
         current.then(data => {
           addData(i, data)

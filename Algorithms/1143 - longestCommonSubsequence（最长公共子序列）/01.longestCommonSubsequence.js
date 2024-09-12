@@ -46,6 +46,7 @@ var longestCommonSubsequence = function(text1, text2) {
       }
     }
   }
+  console.log(res[len1][len2])
   return res[len1][len2];
 };
 

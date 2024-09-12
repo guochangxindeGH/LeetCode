@@ -4,27 +4,20 @@
 
 
 
-// 平均数为k的最长连续子数组
-function countNum(nums, k) {
+setTimeout(() => {
+  console.log('setTimeout')
+}, 0)
 
-  const map = new Map();
-  map.set(0, 0);
-
-  let ans = 0;
-
-  let pre = 0, cur = 0;
-  
-
-  for (let i = 1; i <= nums.length; i++) {
-    cur = pre + nums[i - 1] - k;
-    if (map.has(cur)) {
-        ans = Math.max(ans, i - map.get(cur));
-    } else {
-        map.set(cur, i);
-    }
-    pre = cur;
-  }
-  console.log(ans)
+const { port1, port2 } = new MessageChannel()
+port2.onmessage = function () {
+  console.log('MessageChannel')
 }
+port1.postMessage('ping')
 
-countNum([3,1,0,4], 2);
+requestAnimationFrame(() => {
+  console.log('requestAnimationFrame')
+})
+
+Promise.resolve().then(() => {
+  console.log('Promise')
+})

@@ -25,6 +25,7 @@ var permute = function(nums) {
   const dfs = () => {
     if (track.length === nums.length) {
       res.push(Array.from(track));
+      return
       // res.push([...track]);
     }
     for(let i = 0; i < nums.length; i ++) {
