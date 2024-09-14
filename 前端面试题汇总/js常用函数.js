@@ -6,6 +6,7 @@
 let str = 'Hello, World!'
 str.slice(start, end) // 截取
 str.substring(start, end) // 截取
+str.substr(start, end) // 截取
 str.indexOf('a') // 匹配字符串
 str.split(',') // 分割
 str.join(',') // 合并
@@ -33,6 +34,8 @@ Math.pow(10,3)  //代表 10的三次方
 Math.max(10, 3) // 取两者最大值
 Math.min(10, 3) // 取两者最小值
 23.56.toFixed(1) // 保留小数点位数
+!isNaN(10)
+!isNaN(NaN)
 
 
 /**

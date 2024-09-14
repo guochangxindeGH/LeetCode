@@ -3,21 +3,39 @@
 
 
 
+// 完整代码
+const getMember = async () => {
+  return new Promise((resolve, reject) => {
+    // 模拟获取会员数据接口异常
+    setTimeout(() => {
+        // 成功返回
+        reject(new Error('会员接口异常'))
+    }, 1000)
+  })
+  }
 
-setTimeout(() => {
-  console.log('setTimeout')
-}, 0)
-
-const { port1, port2 } = new MessageChannel()
-port2.onmessage = function () {
-  console.log('MessageChannel')
+try{
+  // 加入try-catch异常捕获
+  const member = await getMember();
+  console.log("会员:", member)
+}catch (e){
+  console.error("会员接口异常:", e)
 }
-port1.postMessage('ping')
 
-requestAnimationFrame(() => {
-  console.log('requestAnimationFrame')
-})
 
-Promise.resolve().then(() => {
-  console.log('Promise')
-})
+
+
+
+
+/**
+ * 
+*/
+
+function sulution() {
+  let res
+
+  console.log(res)
+  return res
+}
+
+sulution()
