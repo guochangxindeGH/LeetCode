@@ -109,7 +109,6 @@ const clone = target => {
 }
 
 const deepClone = (obj, hash = new WeakMap()) => {
-  // let res
   if (obj === null) return null
   else if (typeof obj !== 'object') { // 不是对象就是基本数据类型，直接赋值
     return obj
@@ -117,15 +116,13 @@ const deepClone = (obj, hash = new WeakMap()) => {
     return new Date(obj)
   } else if (obj.constructor === RegExp) { // obj instanceof RegExp || Object.prototype.toString.call(obj) === '[object RegExp]'
     return new RegExp(obj) // return new RegExp(obj.source, obj.flags);
+  } else if (obj instanceof Function) {
+    return function () {
+      return obj.apply(this, arguments);
+    }
+  } else if (typeof source === 'symbol') {
+    return Symbol(obj.description)
   }
-  // else if (obj instanceof Function) {
-  //   return function () {
-  //     return obj.apply(this, arguments);
-  //   }
-  // }
-  // else if (typeof source === 'symbol') {
-  //   return Symbol(obj.description)
-  // }
 
   if (hash.has(obj)) {
     return hash.get(obj)
