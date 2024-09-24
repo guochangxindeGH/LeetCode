@@ -3,40 +3,22 @@
 
 
 
-// 完整代码
-const getMember = async () => {
-  return new Promise((resolve, reject) => {
-    // 模拟获取会员数据接口异常
-    setTimeout(() => {
-        // 成功返回
-        reject(new Error('会员接口异常'))
-    }, 1000)
-  })
-  }
-
-try{
-  // 加入try-catch异常捕获
-  const member = await getMember();
-  console.log("会员:", member)
-}catch (e){
-  console.error("会员接口异常:", e)
-}
 
 
-
-
-
-
-
-/**
- * 
-*/
-
-function sulution() {
-  let res
-
-  console.log(res)
-  return res
-}
-
-sulution()
+var arr = [1, 2, 3, [4, 5], [6, [7, [8]]]]
+/** * 使用递归的方式处理 * wrap 内保
+存结果 ret * 返回一个递归函数 **/
+function wrap() {
+    var ret = [];
+    return function flat(a) {
+      for (var item of a) {
+        if (item.constructor === Array) {
+            ret.concat(flat(item))
+        } else {
+            ret.push(item)
+        }
+      }
+      return ret
+    }
+} 
+console.log(wrap()(arr));
